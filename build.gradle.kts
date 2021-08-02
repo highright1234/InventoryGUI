@@ -26,8 +26,7 @@ subprojects {
     }
 
     dependencies {
-        implementation("net.kyori:adventure-api:4.7.0")
         implementation(kotlin("stdlib"))
-        compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
+        compileOnly("org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT")
     }
 }
